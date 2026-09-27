@@ -1,0 +1,139 @@
+[
+  {
+    "key": "quality",
+    "criterion": "Decision quality",
+    "question": "Will their reviewers make the same calls your experts would?",
+    "default_weight": 20,
+    "minimum_3": false,
+    "rubric": {
+      "1": "No QA data they'll share, or low agreement with your experts.",
+      "3": "Solid agreement on their own QA, but not tested on your policies.",
+      "5": "High agreement in a blind pilot on your data, measured by your team."
+    },
+    "rfp_questions": [
+      "What QA agreement rate do you achieve on comparable policies, and who measures it?",
+      "Will you run a paid pilot on our data with blind QA?",
+      "How do you calibrate reviewers when our policy changes?"
+    ]
+  },
+  {
+    "key": "wellness",
+    "criterion": "Reviewer wellness",
+    "question": "Will they protect the people who look at the worst content?",
+    "default_weight": 15,
+    "minimum_3": true,
+    "rubric": {
+      "1": "No exposure limits or counseling, and attrition they won't disclose.",
+      "3": "Counseling and some exposure limits, but not enforced per person.",
+      "5": "Hard daily exposure caps per person, licensed counseling during and after employment, blurring tools by default."
+    },
+    "rfp_questions": [
+      "What is the maximum daily exposure to graphic content per moderator?",
+      "Is licensed counseling available, including after someone leaves?",
+      "What was annual attrition for T&S staff last year?",
+      "Do you use content blurring and grayscale tooling by default?"
+    ]
+  },
+  {
+    "key": "lang",
+    "criterion": "Language and market coverage",
+    "question": "Can they understand your users in every language and market?",
+    "default_weight": 15,
+    "minimum_3": false,
+    "rubric": {
+      "1": "Machine translation or non-native reviewers for key markets.",
+      "3": "Native speakers for major languages, with gaps in dialects and smaller markets.",
+      "5": "Native, in-market reviewers for every language you need, with local cultural knowledge."
+    },
+    "rfp_questions": [
+      "Which of our languages do you cover with native speakers, not translation?",
+      "How do you handle regional dialects and slang?",
+      "Where are reviewers located for each market?"
+    ]
+  },
+  {
+    "key": "surge",
+    "criterion": "Surge capacity",
+    "question": "Can they scale up fast when something goes wrong?",
+    "default_weight": 10,
+    "minimum_3": false,
+    "rubric": {
+      "1": "Weeks to add capacity and no incident playbook.",
+      "3": "Can add 20 to 30% within a couple of weeks, with some quality dip.",
+      "5": "Proven surge within days, a trained reserve, and follow-the-sun coverage."
+    },
+    "rfp_questions": [
+      "How fast can you add 30% capacity, and how is it trained?",
+      "What happened in your last surge event?",
+      "Do you offer follow-the-sun coverage?"
+    ]
+  },
+  {
+    "key": "security",
+    "criterion": "Security and privacy",
+    "question": "Can you trust them with your users' data?",
+    "default_weight": 15,
+    "minimum_3": true,
+    "rubric": {
+      "1": "No certifications, and reviewers on personal devices.",
+      "3": "SOC 2 or ISO 27001 certified, with limited access logging.",
+      "5": "Certified, managed devices or clean rooms, audited access, and a documented process for illegal content."
+    },
+    "rfp_questions": [
+      "Do you hold SOC 2 Type II or ISO 27001 certification?",
+      "Do reviewers work on managed devices or in clean rooms?",
+      "How is access to personal data logged and audited?",
+      "How do you handle legally restricted content such as CSAM referrals?"
+    ]
+  },
+  {
+    "key": "cost",
+    "criterion": "Cost",
+    "question": "What will it really cost once everything is included?",
+    "default_weight": 10,
+    "minimum_3": false,
+    "rubric": {
+      "1": "Opaque pricing, heavy minimums and paid ramp time.",
+      "3": "Clear per-decision or per-hour pricing with some extras.",
+      "5": "Transparent all-in pricing that stays competitive once rework and appeals are counted."
+    },
+    "rfp_questions": [
+      "What is the price per decision or per hour, and what is excluded?",
+      "How are pilot, training and ramp time billed?",
+      "Are there minimum volume commitments?"
+    ]
+  },
+  {
+    "key": "tooling",
+    "criterion": "Tooling and integration",
+    "question": "Will they work inside your tools and share data back?",
+    "default_weight": 5,
+    "minimum_3": false,
+    "rubric": {
+      "1": "Must use their own tool, with no data back to you.",
+      "3": "Can use your tool with some setup, and periodic exports.",
+      "5": "Works inside your review stack and sends decision data back through an API."
+    },
+    "rfp_questions": [
+      "Can you work in our review tool, or do you require your own?",
+      "Can you share decision data back to us via API?"
+    ]
+  },
+  {
+    "key": "reporting",
+    "criterion": "Reporting transparency",
+    "question": "Will you be able to see how they're really performing?",
+    "default_weight": 10,
+    "minimum_3": false,
+    "rubric": {
+      "1": "Monthly summary slides only.",
+      "3": "Regular dashboards with QA summaries.",
+      "5": "Live dashboards, raw QA samples and fast escalation of quality misses."
+    },
+    "rfp_questions": [
+      "What dashboards do we get, and how often?",
+      "Will you share raw QA samples, not just summaries?",
+      "How are quality misses escalated to us?"
+    ]
+  }
+]
