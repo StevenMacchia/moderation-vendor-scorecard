@@ -4,7 +4,7 @@
 
 Compare any two to four moderation vendors: specialists, outsourcing firms, regional teams or tools. Weight what matters (or start from a preset such as regulated or cost-first), score your shortlist against a clear 1-to-5 rubric on 8 criteria, and see who wins and why. Reviewer wellness and security are minimums: a vendor that fails them is out, however cheap.
 
-**[Try it live](https://stevenmacchia.github.io/ts-workbench/#vendors)** · part of [T&S Workbench](https://github.com/stevenmacchia/ts-workbench) · free, no sign-up
+**[Try it live](https://stevenmacchia.com/ts-workbench/#vendors)** · part of [T&S Workbench](https://github.com/stevenmacchia/ts-workbench) · free, no sign-up
 
 ![Moderation Vendor Scorecard](assets/vendors.png)
 
