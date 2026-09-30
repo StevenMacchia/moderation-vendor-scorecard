@@ -14,8 +14,8 @@ Moderation vendors are often chosen on price and a polished demo. Reviewer welln
 
 ## How it works
 
-1. **Set what matters.** Weight eight criteria to add up to 100.
-2. **Score your shortlist.** Rate each vendor 1 to 5 against a rubric, after asking the RFP questions.
+1. **Set what matters.** Start from a preset (balanced, quality first, cost, regulated, many languages) or weight eight criteria to add up to 100.
+2. **Score your shortlist.** One criterion per screen: rate each vendor 1 to 5 against a rubric, with the RFP questions to ask and the ranking filling in beside you. Or score everything on one page.
 3. **Read the result.** A live ranking, why the winner won, and a heat map of strengths and gaps.
 
 ## What's in this repo
